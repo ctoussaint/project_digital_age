@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(166, 255, 166);
+    font-family: 'Courier New';
+}
+
+h1 {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+img {
+    height: 50%;
+    width: 50%;
+    background-color: gray;
+}
+
+form {
+    margin-left: 20%;
+}
+
+input {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: 50px;
+}
+
+#fullcontainer1 {
+    display: inline-flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+#fullcontainer2 {
+    display: inline-flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+
+}
+
+#fullcontainer3 {
+    display: inline-flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.computers {
+    background-color: gray;
+    width: 30%;
+    height: 30%;
+    border-radius: 5%;
+    box-shadow: black 1px 1px 1px 1px;
+    position: relative;
+    
+    
+    
+}
